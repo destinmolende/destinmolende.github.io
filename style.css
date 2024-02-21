@@ -1,0 +1,255 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+P {
+    font-weight: 300;
+    color: #111;
+
+}
+
+header {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: -50px 10px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0, 5s;
+
+}
+
+.logo {
+    color:#fff;
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.logo span {
+    color: #fb911f;
+
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 700;
+}
+
+.btn-Reservation {
+    padding: 10px 20px;
+    background: #fb911f;
+    margin-top: -10px;
+    text-transform: uppercase;
+
+
+}
+
+header.navbar li a:hover {
+
+    color: #fb911f;
+    border-bottom: 2px solid #fb911f;
+
+}
+
+.baniere {
+
+    position: relative;
+
+    width: 100%;
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background-image: url(./image/le-rayon-frais-bordeaux.webp);
+
+    background-size: cover;
+
+}
+
+.baniere .contenu{
+
+    max-width: 70%;
+    text-align: center;
+
+}
+
+.baniere .contenu h2{
+
+    color:#fff;
+    font-size: 3em;
+    text-transform: capitalize;
+}
+
+.baniere p:nth-child(2){
+
+color:#fff;
+font-size: 1,2em;
+
+}
+
+.bnt1{
+font-size: 1em;
+color:#fff;
+background: #fb911f;
+padding: 10px, 20px;
+display: inline-block;
+margin-top: 20px;
+text-transform: uppercase;
+text-decoration: none;
+letter-spacing: 2px;
+transition: 0,5s;
+margin-left: 10px;
+
+}
+
+.bnt2{
+    font-size: 1em;
+    color:#fff;
+    background: #2a4963;
+    padding: 10px, 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0,5s;
+    margin-left: 10px;
+    }
+
+    .bnt1:hover{
+        
+        letter-spacing: 4px;
+    }
+
+    section{
+
+padding: 100px;
+    }
+
+    .row{
+position: relative;
+width: 100%;
+display: flex;
+justify-content: space-between;
+
+    }
+
+    .row .col50{ 
+position: relative;
+width: 48%;
+justify-content: center;
+align-items: center;
+
+     }
+
+     .row .col50 h2{ 
+margin-bottom: 20px;
+
+     }
+
+     .titre-texte{ 
+
+        color: #000;
+        font-size: 2em;
+        font-weight: 300px;
+        text-transform: capitalize;
+
+     }
+
+     .titre-texte span{
+color: #fb911f;
+font-size: 1,5em;
+font-weight: 200px;
+
+     }
+
+     .row .col50 img{
+
+height:450px ;
+width:600px ;
+position: relative;
+     }
+
+     .titre{  
+display: flex;
+width: 100%;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+     }
+
+     .menu{
+ 
+     }
+
+
+
+
+
+     .box2 {
+        width: 200px; /* largeur de l'image */
+        height: auto; /* hauteur de l'image */
+        -webkit-transition: .3s ease-in-out !important; 
+        transition: .3s ease-in-out !important; 
+      }
+      .box2 :hover img:hover {
+        width: 150px; /* on affiche l'image au carré */
+        height: 150px;
+        border-radius: 50%; 
+          }
+
+          .titre{
+display: flex;
+width: 100%;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+          }
+.menu{
+margin-top: -100px;
+
+}
+
+.menu .contenu{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+margin-top: 40px;
+
+}
+
+.menu .contenu .box{
+
+    width: 350px;
+    border: 20px solid #fff;
+    box-shadow: 20px 15px 35px rgba(0, 0, 0, 0);
+
+
+
+}
